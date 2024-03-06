@@ -13,8 +13,8 @@ const OurServices = () => {
 
   return (
     <Fragment>
+      <h2>.השירותים שאני מציעה</h2>
       <section id="our-services">
-        <h2>.השירותים שאני מציעה</h2>
         <Tabs
           ButtonsContainer="menu"
           buttons={
@@ -49,7 +49,7 @@ const OurServices = () => {
       </section>
 
       {!showContent ? (
-        <h2>צפי בעבודות שלי</h2>
+        <h2>👆צפי בעבודות שלי</h2>
       ) : (
         <section id="services">
           <h2>{OUR_SERVICES[showContent].title}</h2>

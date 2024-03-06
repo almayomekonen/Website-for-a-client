@@ -63,6 +63,7 @@ main h2 {
   font-family: "Roboto Condensed", sans-serif;
   margin: 0 0 1.5rem 0;
   color: #a18aba;
+  margin-top: 30px;
 }
 
 #clients-feedbacks ul {
