@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 import Tabs from "../Tabs/Tabs";
 
 const OurServices = () => {
-  const [showContent, setShowContent] = useState("wedding");
+  const [showContent, setShowContent] = useState();
 
   const handleSelectedTopic = (selectedTopic) => {
     setShowContent(selectedTopic);
@@ -48,18 +48,22 @@ const OurServices = () => {
         ></Tabs>
       </section>
 
-      <section id="services">
-        <h2>{OUR_SERVICES[showContent].title}</h2>
-        <div className="center-images">
-          <img
-            className="clients-image"
-            src={OUR_SERVICES[showContent].image}
-            alt={OUR_SERVICES[showContent].title}
-          />
-        </div>
-        <p>{OUR_SERVICES[showContent].description}</p>
-        <pre></pre>
-      </section>
+      {!showContent ? (
+        <h2>צפי בעבודות שלי</h2>
+      ) : (
+        <section id="services">
+          <h2>{OUR_SERVICES[showContent].title}</h2>
+          <div className="center-images">
+            <img
+              className="clients-image"
+              src={OUR_SERVICES[showContent].image}
+              alt={OUR_SERVICES[showContent].title}
+            />
+          </div>
+          <p>{OUR_SERVICES[showContent].description}</p>
+          <pre></pre>
+        </section>
+      )}
     </Fragment>
   );
 };
