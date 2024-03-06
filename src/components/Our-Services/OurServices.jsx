@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
-
 import { OUR_SERVICES } from "../../data";
 import Button from "../Button/Button";
 import Tabs from "../Tabs/Tabs";
+import "./OurServices.css";
 
 const OurServices = () => {
   const [showContent, setShowContent] = useState();
@@ -49,7 +49,7 @@ const OurServices = () => {
       </section>
 
       {!showContent ? (
-        <h2>👆צפי בעבודות שלי</h2>
+        <h2>👆תתרשמי</h2>
       ) : (
         <section id="services">
           <h2>{OUR_SERVICES[showContent].title}</h2>

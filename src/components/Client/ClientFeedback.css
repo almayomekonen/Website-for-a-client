@@ -1,0 +1,37 @@
+#clients-feedbacks {
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #140524;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  #clients-feedbacks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #clients-feedbacks li {
+    width: 10rem;
+    text-align: center;
+  }
+  
+  #clients-feedbacks li img {
+    height: 9rem;
+    width: 11rem;
+    object-fit: cover;
+    padding: 10px;
+  }
+  
+  #clients-feedbacks li h3 {
+    margin: 0.5rem 0;
+  }
+  
+  #clients-feedbacks li p {
+    font-size: 0.9rem;
+  }
+  
