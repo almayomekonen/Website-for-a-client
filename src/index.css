@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -18,16 +20,31 @@ html {
 }
 
 header {
-  text-align: center;
-  margin: 3rem 0;
+    text-align: center;
+    margin: 3rem 0;
+    margin: 0;
+    padding: 0;
+  }
+
+ /* Default height for screens wider than 767px */
+header .header-img {
+  height: 250px;
 }
 
-header img {
-  height: 10rem;
-  width: 10rem;
-  object-fit: cover;
+/* Override height for screens 767px and below */
+@media screen and (max-width: 500px) {
+  header .header-img {
+    height: 300px;
+  }
 }
 
+  
+  header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
 header h1 {
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
