@@ -32,7 +32,7 @@ header .header-img {
 
 @media screen and (max-width: 500px) {
   header .header-img {
-    height: 400px;
+    height: 300px;
   }
 }
 
