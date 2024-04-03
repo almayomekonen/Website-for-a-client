@@ -26,15 +26,13 @@ header {
     padding: 0;
   }
 
- /* Default height for screens wider than 767px */
 header .header-img {
   height: 250px;
 }
 
-/* Override height for screens 767px and below */
 @media screen and (max-width: 500px) {
   header .header-img {
-    height: 300px;
+    height: 400px;
   }
 }
 
