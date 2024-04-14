@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/fasika-website/',
+  base: '/fasika-hair-style/',
   build: {
     outDir: 'build',
   },
