@@ -1,4 +1,4 @@
-import hair1 from './assets/hair1.jpeg'
+import hair1 from './assets/hair1.png'
 import hair2 from './assets/hair2.jpeg'
 import hair3 from './assets/hair3.jpeg'
 import hair4 from './assets/hair4.jpeg'
