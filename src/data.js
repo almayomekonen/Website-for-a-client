@@ -1,7 +1,7 @@
-import hair1 from './assets/hair1.JPG'
-import hair2 from './assets/hair2.JPG'
-import hair3 from './assets/hair3.JPG'
-import hair4 from './assets/hair4.JPG'
+import hair1 from './assets/hair1.png'
+import hair2 from './assets/hair2.png'
+import hair3 from './assets/hair3.png'
+import hair4 from './assets/hair4.png'
 
 export const CLIENTS_WORKS = [
     {

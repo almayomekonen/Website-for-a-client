@@ -20,7 +20,7 @@ export default module.exports = {
   // Specify file extensions here
   overrides: [
     {
-      files: ["*.js", "*.jsx","JPG"],
+      files: ["*.js", "*.jsx"],
       excludedFiles: "*.config.js",
       rules: {
         // Add rules for JavaScript/JSX files
